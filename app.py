@@ -27,7 +27,7 @@ st.write('Esta es una app para enseñarle a tus hijos a leer '
         )
            
 st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
+image = Image.open('IMG_1037.jpeg')
 st.image(image, width=350)
         
 st.markdown(f"Escribe:")
