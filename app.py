@@ -7,21 +7,16 @@ from gtts import gTTS
 from PIL import Image
 import base64
 
-st.title("Conversión de Texto a Audio")
-image = Image.open('gato_raton.png')
-st.image(image, width=350)
-
-
 try:
     os.mkdir("temp")
 except:
     pass
 
 st.subheader("Atención Acudiente")
-st.write('Esta es una app para enseñarle a tus hijos a leer '  
-         'Antes que nada, asegurate de que tu hijo/a ya sepa como mínimo distinguir las letras del alfabeto' 
-         'La idea es que el pueda escribir las letras, palabras o frases que ve, y el programa se las leera'  
-         'NOTA: Esta aplicación no reemplaza los estudios escolares, solo funciona como una ayuda y/o refuerzo' 
+st.write('Esta es una app para enseñarle a tus hijos a leer.'  
+         ' Antes que nada, asegurate de que tu hijo/a ya sepa como mínimo distinguir las letras del alfabeto.' 
+         ' La idea es que el pueda escribir las letras, palabras o frases que ve, y el programa se las leera.'   
+         ' NOTA: Esta aplicación no reemplaza los estudios escolares, solo funciona como una ayuda y/o refuerzo.' 
          '  '
         
         )
