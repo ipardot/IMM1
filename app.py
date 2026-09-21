@@ -89,3 +89,65 @@ def remove_files(n):
 
 
 remove_files(7)
+
+st.markdown("""
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&family=Comic+Neue:wght@400;700&display=swap');
+
+.stApp {
+    background-color: #FFF6E9;
+    background-image: radial-gradient(#FFE3B3 1.5px, transparent 1.5px);
+    background-size: 22px 22px;
+}
+
+h1, h2, h3, .stMarkdown h1, .stMarkdown h2 {
+    font-family: 'Baloo 2', cursive !important;
+    color: #6B4226 !important;
+}
+h1 { color: #E4572E !important; }
+
+p, li, label, div[data-testid="stMarkdownContainer"], .stMarkdown {
+    font-family: 'Comic Neue', cursive !important;
+    font-size: 1.15rem !important;
+    color: #4A3728 !important;
+}
+
+div[data-testid="stImage"] img {
+    border-radius: 18px;
+    border: 6px solid #FFD447;
+    box-shadow: 4px 4px 0px #E4572E;
+}
+
+textarea, .stTextArea textarea {
+    font-family: 'Comic Neue', cursive !important;
+    font-size: 1.1rem !important;
+    background-color: #FFFDF7 !important;
+    border: 3px solid #A9CBA4 !important;
+    border-radius: 16px !important;
+}
+
+div[data-baseweb="select"] > div {
+    border: 3px solid #A9CBA4 !important;
+    border-radius: 16px !important;
+    background-color: #FFFDF7 !important;
+    font-family: 'Comic Neue', cursive !important;
+}
+
+.stButton button {
+    font-family: 'Baloo 2', cursive !important;
+    background-color: #F7B32B !important;
+    color: #4A3728 !important;
+    border: 3px solid #E4572E !important;
+    border-radius: 20px !important;
+    padding: 8px 24px !important;
+    box-shadow: 3px 3px 0px #E4572E;
+}
+.stButton button:hover {
+    background-color: #FFD447 !important;
+}
+
+audio {
+    border-radius: 20px;
+}
+</style>
+""", unsafe_allow_html=True)
