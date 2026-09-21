@@ -122,6 +122,8 @@ textarea, .stTextArea textarea {
     font-family: 'Comic Neue', cursive !important;
     font-size: 1.1rem !important;
     background-color: #FFFDF7 !important;
+    color: #4A3728 !important;
+    caret-color: #4A3728 !important;
     border: 3px solid #A9CBA4 !important;
     border-radius: 16px !important;
 }
